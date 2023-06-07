@@ -33,6 +33,10 @@ vendor.voice.playback.conc.disabled=true \
 vendor.voice.record.conc.disabled=false \
 vendor.voice.voip.conc.disabled=true
 
+# OTAs
+PRODUCT_PROPERTY_OVERRIDES += \
+lineage.updater.uri=https://raw.githubusercontent.com/taoxanh19999/taoxanh.github.io/master/17.1/{device}.json
+
 # Bluetooth
 PRODUCT_PROPERTY_OVERRIDES += \
 bluetooth.hfp.client=1 \
