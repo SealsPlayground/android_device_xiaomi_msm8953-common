@@ -79,7 +79,7 @@ PRODUCT_PACKAGES += \
 # FP_Change stuff
 PRODUCT_PACKAGES += \
     fp_change \
-    fp_change.conf
+    fp_list.json
 
 # Device-specific Settings
 PRODUCT_PACKAGES += \
